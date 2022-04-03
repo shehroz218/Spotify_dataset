@@ -7,7 +7,7 @@
 
 
 
-##### TO Launch APP click the icon below
+##### To Launch APP click the icon below
 
 
 [<img src="https://ml.globenewswire.com/Resource/Download/739a0114-4c0d-4a18-b85e-b53982324cbc" width=100 align=left>](https://share.streamlit.io/shehroz218/music-recommendation-system/main/app/app.py) <br /> 
