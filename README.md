@@ -6,3 +6,5 @@
 
 
 [Launch App](https://share.streamlit.io/shehroz218/music-recommendation-system/main/app/app.py)
+
+[![Launch App](https://img.shields.io/github/watchers/jonsn0w/hyde.svg?style=social)](https://github.com/jonsn0w/Hyde/watchers)
