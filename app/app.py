@@ -39,7 +39,7 @@ def load_data(nrows):
 
 spotify_data=load_data(100000)
 original_data=spotify_data
-st.write(spotify_data)
+# st.write(spotify_data)
 
 spotify_data =spotify_data[['name', 'year', 'duration_ms', 'danceability', 'energy',
        'key', 'loudness', 'mode', 'speechiness', 'acousticness',
