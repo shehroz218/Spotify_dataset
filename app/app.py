@@ -17,7 +17,7 @@ import streamlit as st
 from PIL import Image
 from utils import get_song_data, get_mean_vector, flatten_dict_list, recommend_songs
 
-image = Image.open('D:\Codes\Spotify API/app\Spotify-icon.jpg')
+image = Image.open('Spotify-icon.jpg')
 st.image(image,width=400)
 
 st.title("Spotify Recommendation Engine")
