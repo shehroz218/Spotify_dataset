@@ -17,8 +17,8 @@ import streamlit as st
 from PIL import Image
 from utils import get_song_data, get_mean_vector, flatten_dict_list, recommend_songs
 
-# image = Image.open('Spotify-icon.jpg')
-# st.image(image,width=400)
+image = Image.open('Spotify-icon.jpg')
+st.image(image,width=400)
 
 st.title("Spotify Recommendation Engine")
 st.markdown("This web application recommendds songs based on your favourite song")
@@ -29,7 +29,7 @@ CLIENT_SECRET="d6faffea02ef44a992203f03e38a4a3f"
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=CLIENT_ID,
                                                            client_secret=CLIENT_SECRET))
 
-DATA_URL="D:\Codes\Spotify API/tracks_features.csv"
+DATA_URL="tracks_features.csv"
 
 
 @st.cache(persist=True)
