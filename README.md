@@ -5,6 +5,4 @@
 + The final code in the jupyter notebook was used to create a locally running App with Streamlit. The final app can be found in the app folder.
 
 
-https://share.streamlit.io/shehroz218/music-recommendation-system/main/app/app.py
-
-[fork my repository](https://github.com/user/repository/fork)
+[Launch App](https://share.streamlit.io/shehroz218/music-recommendation-system/main/app/app.py)
