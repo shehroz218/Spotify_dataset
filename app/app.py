@@ -29,7 +29,7 @@ CLIENT_SECRET="d6faffea02ef44a992203f03e38a4a3f"
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=CLIENT_ID,
                                                            client_secret=CLIENT_SECRET))
 
-DATA_URL="app/tracks_features.csv"
+DATA_URL="app/tracks_features_25MB.csv"
 
 
 # @st.cache(persist=True)
