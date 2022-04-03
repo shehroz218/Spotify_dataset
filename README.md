@@ -3,3 +3,7 @@
 + Tried different clustering and visualization techniques to find the best clusters in the dataset
 + used the cosine distance and kmeans to create a custom recommendation system
 + The final code in the jupyter notebook was used to create a locally running App with Streamlit. The final app can be found in the app folder.
+
+
+https://share.streamlit.io/shehroz218/music-recommendation-system/main/app/app.py
+[fork my repository](https://github.com/user/repository/fork)
