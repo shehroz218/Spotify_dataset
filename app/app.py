@@ -32,7 +32,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=CLIENT_ID,
 DATA_URL="app/tracks_features.csv"
 
 
-@st.cache(persist=True)
+# @st.cache(persist=True)
 def load_data(nrows):
     data=pd.read_csv(DATA_URL, nrows=nrows)
     return data
